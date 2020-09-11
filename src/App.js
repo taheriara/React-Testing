@@ -10,9 +10,9 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ backgroundColor: theme }}>
-      Counter
+      Counter (class component)
       <Counter initialCount={0} />
-      Counter Hooks
+      Counter Hooks (function component)
       <CounterHooks initialCount={0} />
       <button
         onClick={() =>
